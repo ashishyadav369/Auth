@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: url("/Users/ashish/Downloads/Email-Auth-main/untitled folder/bg.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.mainBlock {
+    width: 350px;
+    height: 400px;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+@font-face {
+    font-family: cool;
+    src: url("/Users/ashish/Downloads/Email-Auth-main/untitled folder/font.ttf");
+}
+
+.catch {
+    font-size: 16px;
+    padding-top: 8px;
+    color: white;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.logoText {
+
+    font-size: 28px;
+    font-family: cool;
+    text-align: center;
+    color: #F32424;
+}
+
+.text {
+    padding-top: 16px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.inputUserName {
+    padding-top: 24px;
+    text-align: center;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.userCred {
+    width: 100%;
+    height: 44px;
+    background: inherit;
+    border: 1px solid white;
+    color: white;
+    padding: 13px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.bottom {
+    display: flex;
+    padding-top: 26px;
+    justify-content: space-between;
+}
+
+.bottom p {
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: middle;
+}
+
+.userCred:focus {
+    border: red 1px solid;
+}
+
+button {
+    background-color: red;
+    border: 1px red solid;
+    height: 26px;
+    width: 70px;
+}
+
+button span {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+button:focus {
+    outline: none;
+}
+
+.otpHead {
+    color: red;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+}
+
+.otp {
+    padding-top: 16px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.centerBlock2 {
+    display: none;
+}
+
+.hideBlock {
+    display: none;
+}
+
+.showBlock {
+    display: block;
+}

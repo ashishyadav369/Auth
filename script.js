@@ -19,10 +19,7 @@ nextBtn.addEventListener("click", () => {
     if(username.value == usr && password.value == pass) {
         center1.classList.toggle("hideBlock");
         center2.classList.toggle("showBlock");
-    } else {
-        alert("Wrong credentials !");
-    }
-    var tempParam = {
+        var tempParam = {
         from_name : "fsociety.dat",
         to_name : "mordor",
         message : OTP,
@@ -30,6 +27,10 @@ nextBtn.addEventListener("click", () => {
     emailjs.send('service_hi07rkd','putin',tempParam).then(function(res) {
         console.log("success", res.status);
     })
+    } else {
+        alert("Wrong credentials !");
+    }
+   
 });
 verifyBtn.addEventListener("click", () => {
     if(otp.value == OTP) {

@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in - fsociety.dat</title>
+    <link rel="stylesheet" href="/Users/ashish/Downloads/Email-Auth-main/untitled folder/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('i9qblF70rm0bnpL90');
+        })();
+    </script>
+    
+</head>
+<body>
+    <div class="mainBlock">
+        <div class="centerBlock">
+            <p class="logoText">fsociety</p>
+            <p class="text">Sign in</p>
+            <p class="catch">Use your fsociety account</p>
+            <p class="inputUserName"><input class="userCred username" type="text" placeholder="Username"></p>
+            <p class="inputUserName"><input class="userCred password" type="password" placeholder="Password"></p>
+            <div class="bottom">
+                <p>Forgot password ?</p>
+                <button class="nextBtn"><span>Next</span></button>
+            </div>
+        </div>
+
+        <div class="centerBlock2">
+            <p class = "otpHead">Verify it's you</p>
+            <p class = "otp">Enter One Time Password</p>
+            <p class="inputUserName"><input class="userCred oneTime" type="text" placeholder="OTP"></p>
+            <div class="bottom">
+                <p>Resend ?</p>
+                <button class="verifyBtn"><span>Verify</span></button>
+            </div>
+        </div>
+    </div>
+    <script src="/Users/ashish/Downloads/Email-Auth-main/untitled folder/script.js"></script>
+</body>
+</html>
